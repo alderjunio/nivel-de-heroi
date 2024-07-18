@@ -1,45 +1,45 @@
-const nome = "Super Programador"
+const nome = "DevJunior"
 
-let XPdoHeroi = 2000
+let xpHero = 2000
 
-let nivelHeroi;
+let levelHero;
 
 
 
-if (XPdoHeroi <= 1000) {
+if (xpHero <= 1000) {
 
-  nivelHeroi = "Ferro"
+  levelHero = "Ferro"
 
-} else if (XPdoHeroi > 1000 && XPdoHeroi <= 2000) {
+} else if (xpHero > 1000 && xpHero <= 2000) {
 
-  nivelHeroi = "Bronze"
+  levelHero = "Bronze"
 
-} else if (XPdoHeroi > 2000 && XPdoHeroi <= 5000) {
+} else if (xpHero > 2000 && xpHero <= 5000) {
 
-  nivelHeroi = "Prata"
+  levelHero = "Prata"
 
-} else if (XPdoHeroi > 5000 && XPdoHeroi <= 7000) {
+} else if (xpHero > 5000 && xpHero <= 7000) {
 
-  nivelHeroi = "Ouro"
+  levelHero = "Ouro"
 
-} else if (XPdoHeroi > 5000 && XPdoHeroi <= 8000) {
+} else if (xpHero > 5000 && xpHero <= 8000) {
 
-  nivelHeroi = "Platina"
+  levelHero = "Platina"
 
-} else if (XPdoHeroi > 8000 && XPdoHeroi <= 9000) {
+} else if (xpHero > 8000 && xpHero <= 9000) {
 
-  nivelHeroi = "Ascndente"
+  levelHero = "Ascendente"
 
-} else if (XPdoHeroi > 9000 && XPdoHeroi <= 10000) {
+} else if (xpHero > 9000 && xpHero <= 10000) {
 
-  nivelHeroi = "Imortal"
+  levelHero = "Imortal"
 
 } else {
 
-  nivelHeroi = "Radiante"
+  levelHero = "Radiante"
 
 }
 
 
 
-console.log("O heroi de nome " + nome + " está no nível " + nivelHeroi)
+console.log("O heroi de nome " + nome + " está no nível " + levelHero)
